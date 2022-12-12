@@ -1,0 +1,22 @@
+{
+  "name": "adif-qsl-status",
+  "version": "1.0.0",
+  "description": "Update provided adif to desired QSL_SENT status",
+  "main": "bin/adif-qsl-status.js",
+  "bin": {
+    "adif2via": "bin/adif-qsl-status.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "Tomas Geci OM5AST",
+  "license": "MIT",
+  "dependencies": {
+    "adif-parser-ts": "^0.4.60",
+    "boxen": "^7.0.0",
+    "chalk": "^5.2.0",
+    "path": "^0.12.7",
+    "yargs": "^17.6.2"
+  }
+}
