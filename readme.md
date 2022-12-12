@@ -1,6 +1,6 @@
 [![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://supportukrainenow.org/)
 
-# ADIF to VIA file decorator
+# ADIF QSL_SENT field updater
 
 Simple tool to batch QSL_SENT field update in provided adif file
 
