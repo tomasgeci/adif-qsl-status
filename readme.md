@@ -4,7 +4,7 @@
 
 Simple tool to batch QSL_SENT field update in provided adif file
 
-*disclaimer:* this is raw prototype-like project, without further ambitions for fine-tuning and code quality improvements
+*disclaimer:* this is a raw prototype-like project, without further ambitions for fine-tuning and code quality improvements
 
 ## Install Nodejs and NPM
 
@@ -19,7 +19,7 @@ Simple tool to batch QSL_SENT field update in provided adif file
 - export ADIF file with desired QSO from your LOG
 - state values (examples, currently not limited list): `N - No`, `R - Requested`, `Q - Queued`, `Y - Yes`, `I - Invalid`
 - run (example set QSL_SENT status to **Queued**)`node /bin/adif-qsl-status.js -f your_path/your_adif_file.adi -s Q`
-- lookup for file with prefix `finished_`
+- lookup for a file with the prefix `finished_`
 
 ## Devel
 
